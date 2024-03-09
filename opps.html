@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <table>
+        <tr>
+            <td class="name"></td>
+        </tr>
+    </table>
+    <script>
+
+        // 1.wap to javascript class and object method use program to input marks of five subjects Physics, Chemistry,
+        // Biology, Mathematics and Computer.Calculate percentage and grade according to following.
+
+
+        // class student{
+        //     constructor(Physics, Chemistry, Biology, Mathematics, Computer){
+        //         this.Physics=parseInt(prompt("Enter Physics marks"));
+        //         this.Chemistry=parseInt(prompt("Enter Chemistry Marks"));
+        //         this.Biology=parseInt(prompt("Enter Biology marks"));;
+        //         this.Mathematics=parseInt(prompt("Enter Mathematics marks"));;
+        //         this.Computer=parseInt(prompt("Enter Computer marks"));;
+        //     }
+        //     studentMarks()
+        //     {
+        //         console.log(`Physics : ${this.Physics}`);
+        //         console.log(`Chemistry : ${this.Chemistry}`);
+        //         console.log(`Biology : ${this.Biology}`);
+        //         console.log(`Mathematics : ${this.Mathematics} `);
+        //         console.log(`Computer : ${this.Computer}`);
+        //     }
+        //     studentResult(Physics,Chemistry,Biology,Mathematics,Computer)
+        //     {
+        //         this.studentMarks();
+        //         let total=this.Physics+this.Chemistry+this.Biology+this.Mathematics+this.Computer;
+        //         console.log(`Total :${total}`);
+        //         let result=total/5;
+        //         // console.log(`Percentage : ${result}`);
+        //         if(result>=90 && result <=100)
+        //         {
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : A");
+        //         }else if(result>=80 && result<=89){
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : B");
+        //         }
+        //         else if(result>=70 && result<=79)
+        //         {
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : C");
+        //         }else if(result>=60 && result<=69)
+        //         {
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : D");
+        //         }else if(result>=50 && result<=59)
+        //         {
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : E");
+        //         }else if(result>=40 && result<=49)
+        //         {
+        //             console.log(`percentage ${result}%`);
+        //             console.log("Grade : E");
+        //         }else{
+        //             console.log("You Are Fali");
+        //         }
+        //     }
+        // }
+
+        // s1=new student();
+        // s1.studentResult();
+
+
+
+        //2. write a javascript program to below data print html table using constructor method
+
+
+        // class data {
+        //     constructor(name, email, phone) {
+        //         this.name = name;
+        //         this.email = email;
+        //         this.phone = phone;
+        //     }
+        //     printLine() {
+        //         console.log(`Name : ${this.name}, Email : ${this.email}, Phone : ${this.phone}`);
+        //     }
+        // }
+
+        // d1 = new data("jay", "jay@gmail.com", 12345)
+        // d1.printLine();
+        // d2 = new data("ajay", "ajay@gmail.com", 12345)
+        // d2.printLine();
+        // d3 = new data("vijay", "vijay@gmail.com", 12345)
+        // d3.printLine();
+        // d4 = new data("ashish", "ashish@gmail.com", 12345)
+        // d4.printLine();
+
+
+        //3. write a javascript program to use class and object print multiplication table of any number using do while loop.
+
+        // class table{
+        //     constructor(num)
+        //     {
+        //         this.num=num;
+        //     }
+        //     pritline(num,i)
+        //     {
+        //         i=1;
+        //         do{
+        //             console.log(this.num , i , this.num*i);
+        //             i++;
+        //         }while(i<=10)
+
+        //     }            
+
+        // }
+
+        //  l1=new table(7)
+        //  l1.pritline();
+
+        //4.Write a Javascript program to create a class called "Employee" with a name, salary, and hire date attributes,
+        // and a method to calculate years of service.
+
+
+        // class Employee {
+        //     constructor(name, salary, hireDate,hiremonth,hireyear) {
+        //         this.name = name;
+        //         this.salary = salary;
+        //         this.hireDate = hireDate;
+        //         this.hireDate = hireDate;
+        //         this.hiremonth = hiremonth;
+        //         this.hireyear = hireyear;
+
+        //     }
+        //     data() {
+        //         console.log(`Name : ${this.name}`);
+        //         console.log(`Salary : ${this.salary}`);
+        //         console.log(`Hire Date : ${this.hireDate}-${this.hiremonth}-${this.hireyear}`);
+        //         let date = new Date();
+        //         console.log(`Today Date :${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`);
+        //     }
+        //     years(hireDate,hireyear,hiremonth) {
+        //         let date = new Date();
+        //         console.log(`years of service : ${date.getFullYear()-this.hireyear} Years ${date.getMonth()+1-this.hiremonth} month ${date.getDate()-this.hireDate} Day`);
+        //     }
+        // }
+
+        // E1 = new Employee("tusha", 40000, 20,4, 2021);
+        // E1.data();
+        // E1.years();
+
+
+        //5.Write a Javascript program to create a class called "Library" with a collection of books and methods to add and remove books.
+
+
+        // class Library {
+        //     constructor(arr) {
+        //         this.arr = []
+        //     }
+        //     books()
+        //     {
+        //         console.log("books");
+        //         this.arr=['ramayan', 'Mahabharat', 'krishnLila', 'shivmala']
+        //         console.log(this.arr);
+        //     }
+        //     add(arr) {
+        //         console.log("Add The Books");
+        //         this.arr.push("bhagvatgita", "ram")
+        //         console.log(this.arr);
+        //     }
+        //     removeclass(arr) {
+        //         console.log("Remove books");
+        //         let input = "Mahabharat";
+        //         let res = this.arr.filter((val) => val !== input)
+        //         console.log(res);
+        //     }
+        // }
+
+        // l1 = new Library()
+        // l1.books();
+        // l1.add()
+        // l1.removeclass()
+
+
+       // 6. Write a Javascript program to create a class called "Restaurant" with attributes for menu items, prices, 
+       // and ratings, and methods to add and remove items, and to calculate average rating.
+
+        class Restaurant {
+            constructor() {
+                this.menuItems = {};
+                this.prices = {};
+                this.ratings = [];
+            }
+            addItem(item, price, rating) {
+                this.menuItems[item] = price;
+                this.prices[item] = price;
+                this.ratings.push(rating);
+                console.log(`${item}  ${price} added to the menu.`);
+            }
+            removeItem(item) {
+                if (this.menuItems.hasOwnProperty(item)) {
+                    delete this.menuItems[item];
+                    delete this.prices[item];
+                    console.log(`${item} removed from the menu.`);
+                } else {
+                    console.log(`${item} not found in the menu.`);
+                }
+            }
+            calculateAverageRating() {
+                if (this.ratings.length === 0) {
+                    return 0;
+                }
+
+                const sum = this.ratings.reduce((acc, rating) => acc + rating, 0);
+                const averageRating = sum / this.ratings.length;
+                return averageRating;
+            }
+        }
+
+
+        let r1 = new Restaurant();
+
+        r1.addItem("Burger", 100, 6);
+        r1.addItem("Pizza", 120, 7);
+        r1.addItem("Salad", 50, 8);
+
+        r1.removeItem("Pizza");
+        console.log("Average Rating:", r1.calculateAverageRating());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
